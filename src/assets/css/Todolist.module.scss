@@ -1,0 +1,44 @@
+.todolist {
+    min-height: 670px;
+    min-width: 1000px;
+    position: relative;
+    border: 0.5px solid rgba(255,255,255, 0.5 );
+    border-radius: 32px;
+    background-color: #fff;
+    box-shadow: 0px 0px 4px rgba(0, 23, 71, 0.15);
+    
+
+    .todoform {
+        position: relative;
+        top: 72px;
+        left: 200px;
+        bottom: 48px;
+        max-width: 620px;
+        min-height: 540px;
+        margin-bottom: 100px;
+
+        .title {
+            font-size: 48px;
+            font-weight: bold;
+            margin-bottom: 22px;
+            color:  #11175E;
+        }
+
+        .todoitem {
+            overflow-y: auto;
+            max-height: 325px;
+            margin-left: 20px;
+            margin-top: 90px;
+        }
+
+        //hide the scrollbar
+        .todoitem::-webkit-scrollbar {
+            display: none;
+        }
+
+
+        
+    }
+
+
+}

@@ -1,0 +1,22 @@
+
+
+.label {
+    font-family: 'Inter', sans-serif;
+
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+    text-align: left;
+
+    margin-bottom: 10px;
+}
+
+label:hover {
+    color: #5BC0F8;
+    font-size: 120%;
+}
+
+.ticked {
+    text-decoration: line-through;
+}

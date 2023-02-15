@@ -1,0 +1,26 @@
+.bar {
+    padding: 15px;
+    gap: 10px;
+    position: absolute;
+    width: 94%;
+    border-radius: 6px;
+    color: #205295;
+    border-color: rgba(30, 30, 171, 0.2);
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+.button {
+    border-radius: 4px;
+    gap: 8px;
+    padding: 8px 17px;
+    position: absolute;
+    font-size: 17px;
+    color: #fff;
+    background-color: #2D70FD;
+    right: 10px;
+    top: 83px;
+    border: 1px solid #2D70FD;
+    margin-bottom: 10px;
+
+}
